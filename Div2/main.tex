@@ -1,0 +1,84 @@
+\documentclass{resume}
+\begin{document}
+% \setmainfont{nanumtype1}
+\fontfamily{ppl}\selectfont
+
+\noindent
+\begin{tabularx}{\linewidth}{@{}m{0.8\textwidth} m{0.2\textwidth}@{}}
+{
+    \Large{박성호} \newline
+    \small{
+        \clink{
+            \href{mailto:relilau00@gmail.com}{relilau00@gmail.com} \textbf{·} 
+            {\fontdimen2\font=0.75ex +82 010 4147 5331} 
+            \newline
+            \href{https://github.com/naem1023}{\faGithub \, https://github.com/naem1023}
+            \textbf{·} 
+            \href{https://velog.io/@naem1023/series}{\faEdit \,https://velog.io/@naem1023/series}
+        }
+    }
+} & 
+{
+    % \hfill
+    % \includegraphics[width=2.8cm]{images/gr.png}
+}
+\end{tabularx}
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}*{2}{X}@{}}
+% left side %
+{
+    \csection{EXPERIENCE}{\small
+        \begin{itemize}
+            % item 1 %
+            \item \frcontent{Baikal AI, 인턴/아르바이트}{치매 환자군과 일반군의 음설 발화구간 Binary 분류\newline - Feature Engineering, Train/Evaluate model, GitLab Issue comment에 학습 보고서 자동 생성 \newline - Envoy proxy로 gRPC 서비스를 RESTful HTTP/1.1로 변환 \newline - 초성, 중성, 종성으로 검색하는 한글 Regex 개발 \newline - Google script, form으로 라이센스 발급 시스템 구현}{}{2020.09 - 2021.05}
+        \end{itemize}
+    }
+    \csection{EDUCATION}{\small
+        \begin{itemize}
+            % item 1 %
+            \item \frcontent{건국대학교 컴퓨터공학과, CGPA: 3.54/4.5}{}{}{2016 - 2022.06 }
+        \end{itemize}
+    }
+    \csection{AWARDS}{\small
+        \begin{itemize}
+            % item 1 %
+            \item \frcontent{네이버 부스트캠프 AI Tech 2기 Award}{\textbf{2nd} place, KLUE Open-Domain Question Answering 대회 \newline \textbf{2nd} place, KLUE Relation Extraction 대회\newline \textbf{5th} place, Mask Image Classification 대회}{}{2021}
+            % item 2 %
+            \item \frcontent{Kaggle, Hindi and Tamil Question Answering}{\textbf{Silver medal, 43th}   \href{https://github.com/quarter-100/Hlue}{[\underline{Github}]}}{}{2021}
+            % item 2 %
+            \item \frcontent{AI Factory 텍스트 요약 온라인 해커톤 대회}{\textbf{2nd} place  \href{https://github.com/quarter-100/text-summarization}{[\underline{Github}]}}{}{2021}
+            % item 2 %
+            \item \frcontent{해킹캠프, POC}{\textbf{Best Hacker and Team Winner}, CTF Award}{}{2014}
+        \end{itemize}
+    }
+    \csection{TECHNICAL SKILLS}{\small
+        \begin{itemize}
+            % item 1 %
+            \item {\footnotesize Python, Pytorch, Docker, Javascript, C++}
+        \end{itemize}
+    }
+} 
+% end left side %
+& 
+% right side %
+{
+    \csection{PROJECTS}{\begin{flushleft} \small
+        \begin{itemize}
+            \item \frcontent{딥러닝 MRC를 활용한 스무고개 게임, \textit{2021} \clink{\href{https://github.com/boostcampaitech2/final-project-level3-nlp-09}{[\underline{Github}]}}}{Project Manager, Backend 개발 담당\newline- 도커라이징을 통한 모델 서빙 담당 \newline - 프로젝트 설계, 역할 분배, 병합 \newline - 모델 재학습, 서빙, CI/CD 파이프라인 설계}{}{Docker, FastAPI, Flask, Python, HuggingFace, Pytorch, Shell script}
+            \item \frcontent{KLUE Open-Domain Question Answering, \textit{2021} \clink{\href{https://naem1023.notion.site/ODQA-4be47dae144f479fb70431181cdd1cbc}{[\underline{Team Portfolio}]}\href{https://github.com/boostcampaitech2/mrc-level2-nlp-09}{[\underline{Github}]}}}{Retrieval, Reader model 개선 \newline - Question Generation를 이용한 Data Augmentation \newline - 데이터 후처리}{}{Python, HuggingFace, Pytorch, Shell Script}
+            \item \frcontent{ KLUE Relation Extraction, \newline \textit{2021}   \clink{\href{https://naem1023.notion.site/KLUE-ad3b884f6c2a4f28a00b548aa12c51b6}{[\underline{Team Portfolio}]}\;\href{https://github.com/boostcampaitech2/klue-level2-nlp-09}{[\underline{Github}]}}}{Relation Extraction Model 개선\newline - Back Translation으로 Task Adaptive Pre-Training}{}{Python, HuggingFace, Pytorch, Shell Script} 
+            \item \frcontent{2D 이미지의 픽셀 단위 미터 거리 측정 졸업프로젝트, \textit{2020}  \clink{ \href{https://github.com/naem1023/Measuring-Image-Distance}{[\underline{Github}]}}}{- Distance Regressor(\href{https://arxiv.org/abs/1909.04182}{\underline{arXiv link}})와 Faster RCNN( \href{https://arxiv.org/abs/1506.01497}{\underline{arXiv link}})을 혼합하여 모델 구현 \newline - Test dataset 평가지표: RMSE 2.39 
+            \newline - RabbitMQ와 FastAPI의 비동기화 api를 통해 여러 사용자의 모델 추론 요청을 처리}{}{Python, Pytorch, FastAPI, Rabbit-MQ, Docker, Shell Script}         
+            \item \frcontent{연구실 실험용 앱 개발, \textit{2020} }{연구실 실험을 위한 알람 및 단어 테스트를 위한 크로스 플랫폼 앱 개발\newline \textit{성균관대학교 인터랙션사이언스학과}}{}{Swift, React-Native, Firebase}
+            
+        \end{itemize}\end{flushleft}
+    }
+    \csection{OTHER EXPERIENCE}{\small
+        \begin{itemize}
+            \item {\footnotesize 네이버 부스트캠프 AI Tech 2기, \textit{2021} \newline }
+        \end{itemize}
+    }
+}
+\end{tabularx}
+\end{center}
+\end{document}
