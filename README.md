@@ -49,3 +49,6 @@ Just save tex file. LaTex Workshop will generate pdf file.
 ## PlushCV
 [CV PDF file](PlushCV/PlushCV.pdf)
 - Reference: [Link]()
+
+# Good To Use
+- [fontawesome LaTex code](https://mirror.kakao.com/CTAN/fonts/fontawesome/doc/fontawesome.pdf)
